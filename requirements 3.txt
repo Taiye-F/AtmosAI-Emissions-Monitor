@@ -3,6 +3,4 @@ pandas
 numpy
 joblib
 xgboost
-requests
-matplotlib
-shap
+scikit-learn
