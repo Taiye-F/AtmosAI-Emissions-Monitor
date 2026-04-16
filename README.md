@@ -8,7 +8,7 @@ AtmosAI is an AI-driven early warning system designed for **NESREA** (Nigeria's 
 Traditional environmental monitoring in Nigeria is often retrospective. AtmosAI shifts the paradigm by:
 - **Live Telemetry Ingestion:** Consuming real-time PM10, PM2.5, and NO2 data via the Open-Meteo Satellite API across 11 key Nigerian zones.
 - **Predictive Intelligence:** Utilizing a bias-corrected XGBoost classifier to forecast violations of World Health Organization (WHO) safety limits.
-- **Explainable AI (XAI):** Integrating SHAP (SHapley Additive exPlanations) to ensure transparency in regulatory decision-making.
+- **Explainable AI (XAI):** Integrating SHAP (SHapley Additive exPlanations) and The Local "Waterfall" Plot (The "Bias-Breaker") to ensure transparency in regulatory decision-making.
 
 ## The Breakthrough: Bias Correction
 A critical challenge in West African environmental modeling is the **"Harmattan Effect"**—where natural Saharan dust (PM10) in northern states (like Taraba) can be mistaken for industrial pollution.
