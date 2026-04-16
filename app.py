@@ -11,7 +11,7 @@ st.set_page_config(page_title="NESREA Emissions Monitor", page_icon="🏭", layo
 
 @st.cache_resource
 def load_model():
-    return joblib.load(r"C:\Users\Taiye Fagbolade\Downloads\learning folder\emissions_model.pkl")
+    return joblib.load('emissions_model.pkl')
 
 try:
     model = load_model()
