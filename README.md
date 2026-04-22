@@ -13,7 +13,7 @@ Traditional environmental monitoring in Nigeria is often retrospective. AtmosAI 
 ## The Breakthrough: Bias Correction
 A critical challenge in West African environmental modeling is the **"Harmattan Effect"**—where natural Saharan dust (PM10) in northern states (like Taraba) can be mistaken for industrial pollution.
 
-**Our Technical Pivot:**
+**My Technical Pivot:**
 - Identified a significant geographic bias in initial models.
 - Retrained the model to prioritize **Nitrogen Dioxide (NO2)** and **PM2.5** (industrial markers) over simple particulate volume.
 - **Result:** Achieved a **96.44% Balanced Accuracy** that accurately distinguishes between natural weather events and illegal industrial activity.
@@ -30,7 +30,5 @@ A critical challenge in West African environmental modeling is the **"Harmattan 
 - **Interface:** Streamlit Cloud
 
 ## Team AtmosAI
-- **Taiye Janet Fagbolade** - Team Lead
-- **Haruna Hassan Suleiman** - Team Member
-- **Abdullahi Yusuf** - Team Member
+
 
