@@ -4,6 +4,8 @@
 
 AtmosAI is an AI-driven early warning system designed for **NESREA** (Nigeria's National Environmental Standards and Regulations Enforcement Agency). It utilizes machine learning to predict the probability of air quality violations 24 hours in advance, allowing for surgical regulatory intervention.
 
+[Live Web Application - Click Here to View](https://atmosai-emissions-monitor-yg2ygsn4uuepqyfbgahjp5.streamlit.app/)
+
 ## The Solution
 Traditional environmental monitoring in Nigeria is often retrospective. AtmosAI shifts the paradigm by:
 - **Live Telemetry Ingestion:** Consuming real-time PM10, PM2.5, and NO2 data via the Open-Meteo Satellite API across 11 key Nigerian zones.
