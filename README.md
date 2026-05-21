@@ -1,4 +1,4 @@
-# AtmosAI: Industrial Emissions Compliance Monitor (RegTech)
+# AtmosAI: Industrial Emissions Compliance Monitor
 
 **Transforming environmental enforcement from reactive to proactive.**
 
@@ -31,6 +31,6 @@ A critical challenge in West African environmental modeling is the **"Harmattan 
 - **Data Pipeline:** REST APIs (Open-Meteo), Pandas, NumPy
 - **Interface:** Streamlit Cloud
 
-## Team AtmosAI
+## Developed by Taiye Fagbolade 
 
 
