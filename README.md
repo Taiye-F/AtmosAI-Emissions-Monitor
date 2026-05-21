@@ -29,7 +29,7 @@ A critical challenge in West African environmental modeling is the **"Harmattan 
 **The Technical Pivot:**
 - Identified a significant geographic and environmental bias in baseline modeling.
 - Engineered a bias-corrected model that prioritizes **Nitrogen Dioxide (NO2)** and **PM2.5** (chemical markers of industrial burning and illegal refining) over simple particulate volume.
-- **Result:** Achieved a **96.44% Balanced Accuracy** that flawlessly distinguishes between natural atmospheric weather events and illegal industrial activity.
+- **Result:** Achieved a **96% Balanced Accuracy** that flawlessly distinguishes between natural atmospheric weather events and illegal industrial activity.
 
 ---
 
