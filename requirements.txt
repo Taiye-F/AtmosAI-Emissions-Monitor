@@ -1,6 +1,7 @@
-streamlit
+shap
+matplotlib
 pandas
 numpy
-joblib
 xgboost
-scikit-learn
+cloudpickle
+numba
