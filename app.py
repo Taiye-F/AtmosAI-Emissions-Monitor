@@ -7,10 +7,12 @@ from datetime import date
 # =========================================================
 # 1. PAGE CONFIGURATION & MODEL LOADING
 # =========================================================
-st.set_page_config(page_title="NESREA Emissions Monitor", page_icon="🏭", layout="wide")
+st.set_page_config(page_title="AtmosAI Emissions Monitor", page_icon="🏭", layout="wide")
 
 @st.cache_resource
 def load_model():
+    # Loading the model using just the filename.
+    # Make sure 'emissions_model.pkl' is in the exact same folder as this app.py file!
     return joblib.load('emissions_model.pkl')
 
 try:
@@ -39,9 +41,9 @@ zone_database = {
 # =========================================================
 # 3. THE DASHBOARD UI (Main Screen)
 # =========================================================
-st.title("🏭 NESREA Early Warning System: Industrial Emissions")
+st.title("Early Warning System: Industrial Emissions")
 st.write("""
-**Regulatory Technology (RegTech) Prototype** |
+**Regulatory Technology Prototype** |
 This AI-powered dashboard uses live satellite telemetry (Open-Meteo API) to monitor major Nigerian industrial hubs and non-industrial control states. It predicts the probability that a zone will violate **World Health Organization (WHO)** safe air limits (PM10, PM2.5, NO2) within the next 24 hours.
 
 **Developed by Taiye Janet Fagbolade**
@@ -117,7 +119,7 @@ if st.button("Generate Regulatory Risk Report", type="primary", use_container_wi
                 elif violation_prob >= 75:
                     st.error("🚨 **CRITICAL ALERT: Imminent Industrial Violation**")
                     st.write("**Analysis:** High probability of industrial non-compliance. High gas levels detected.")
-                    st.write("**Action:** Immediate dispatch of NESREA inspection teams.")
+                    st.write("**Action:** Immediate dispatch of inspection teams.")
                 
                 elif violation_prob >= 40:
                     st.warning("⚠️ **ELEVATED RISK: Nearing WHO Safety Limits**")
@@ -138,4 +140,4 @@ if st.button("Generate Regulatory Risk Report", type="primary", use_container_wi
             st.write("Ensure your input features exactly match the training data.")
             
 st.markdown("---")
-st.caption("Powered by XGBoost | Balanced Accuracy: 96.44% | Bias-Corrected (Chemical-Only) | Data: Open-Meteo Satellite Network")
+st.caption("Powered by XGBoost | Balanced Accuracy: 96% | Bias-Corrected (Chemical-Only) | Data: Open-Meteo Satellite Network")
