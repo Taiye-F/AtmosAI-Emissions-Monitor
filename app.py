@@ -41,7 +41,7 @@ zone_database = {
 # =========================================================
 # 3. THE DASHBOARD UI (Main Screen)
 # =========================================================
-st.title("Early Warning System: Industrial Emissions")
+st.title("Chevron Early Warning System: Industrial Emissions")
 st.write("""
 **Regulatory Technology Prototype** |
 This AI-powered dashboard uses live satellite telemetry (Open-Meteo API) to monitor major Nigerian industrial hubs and non-industrial control states. It predicts the probability that a zone will violate **World Health Organization (WHO)** safe air limits (PM10, PM2.5, NO2) within the next 24 hours.
